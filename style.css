@@ -1,4 +1,4 @@
-@import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,7 +6,7 @@
 }
 body {
   background-color: rgb(198, 216, 223);
-  align-items: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1.5;
 }
 img {
@@ -19,9 +19,9 @@ p {
   font-size: 13px;
 }
 .views {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 15px;
-  overflow: auto;
+  line-height: 1.6;
 }
 .card {
   padding: 35px;
@@ -32,11 +32,9 @@ p {
   line-height: normal;
 }
 .name-graduates,
-.quotes,
-.profile,
+.verified-graduate,
 .views,
-.quotes,
-.verified-graduate {
+.quotes {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 .quotes {
