@@ -16,15 +16,15 @@ img {
 }
 p {
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .views {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   overflow: auto;
 }
 .card {
-  padding: 50px;
+  padding: 40px;
   border-radius: 20px;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.5);
 }
@@ -41,14 +41,14 @@ p {
 }
 .name-graduates {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 .verified-graduate {
   opacity: 75%;
-  font-size: 25px;
+  font-size: 20px;
 }
 .views {
-  font-size: 40px;
+  font-size: 30px;
 }
 .cards {
   display: grid;
